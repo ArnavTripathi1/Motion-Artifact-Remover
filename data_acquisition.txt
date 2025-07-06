@@ -1,0 +1,31 @@
+The dataset used to train the models was a combination of multiple datasets.
+
+The final dataset contains
+* Head CT and Axial, Sagittal and Coronal MRI.
+* Contrast and Non - Contrast CT and T-1 Weighted, T-2 Weighted, Diffusion, Flair MRI.
+
+These scans reflect a wide range of central nervous system phenotypes, including hemorrhagic, infectious, neoplastic, congenital, and traumatic conditions.
+Together, these datasets provide a rich and diverse set of neurological imaging phenotypes, ensuring the model is trained on a broad spectrum of clinically relevant presentations.
+
+1). Computed Tomography Images for Intracranial Hemorrhage Detection and Segmentation
+Authors : Murtadha D. Hssayeni, M.S., Muayad S. Croock, Ph.D., Aymen Al-Ani, Ph.D., Hassan Falah Al-khafaji, M.D. and Zakaria A. Yahya, M.D.
+
+A retrospective study was designed to collect head CT scans of subjects with TBI and it was approved by the research and ethics board in the Iraqi ministry of health-Babil Office. CT scans were collected between February and August 2018 from Al Hilla Teaching Hospital-Iraq. Patients information were anonymized. A dataset of 82 CT scans was collected that included 36 scans for patients diagnosed with intracranial hemorrhage with the following types (Intraventricular, Intraparenchymal, Subarachnoid, Epidural and Subdural). Each CT scan for each patient includes about 30 slices with 5 mm slice-thickness. The mean and std of patients' age are 27.8 and 19.5, respectively. 46 of the patients are males and 36 of them are females. Each slice of non-contrast CT scans was annotated by two radiologists by recording hemorrhage types if hemorrhage occurred, and fracture and also the radiologists delineated the ICH regions in each slice. There was a consensus between the radiologists. They did not have access to clinical history of the patients, thus they have the same given data (CT scans) for each subject as the developed algorithm to make their diagnosis. 
+
+2).Brain Tumor Detection MRI Dataset on Kaggle.
+This dataset aims towards helping people to build machine learning models for detecting brain tumors.
+Link - https://www.kaggle.com/abhranta/brain-tumor-detection-mri
+
+3).Brain Tumor Classification Dataset on Kaggle.
+Link - https://www.kaggle.com/datasets/sartajbhuvaji/brain-tumor-classification-mri
+
+4). Brain CT Images with Intracranial Hemorrhage MasksBrain CT Images with Intracranial Hemorrhage Masks on Kaggle.
+
+This dataset consists of head CT (Computed Thomography) images in jpg format. There are 2500 brain window images and 2500 bone window images, for 82 patients. There are approximately 30 image slices per patient.
+
+Links - https://physionet.org/content/ct-ich/1.0.0/ & https://www.kaggle.com/datasets/vbookshelf/computed-tomography-ct-images
+
+5). CT and MRI scans collected from MedPix.
+These scans are of: Brain Death, CNS Cryptococcosis, Cryptococcal Meningoencephalitis, Dermoid Tumor (Inclusion Cyst) Of CNS, Intracranial Dermoid Inclusion Cyst, Pneumocephalus And Meningitis Secondary To Sinusitis, Ruptured Dermoid Tumor (Inclusion Cyst) Of CNS; Possible Developing Acute Stroke Too Early For CT Diagnosis, Ruptured Meckel’s Cave Dermoid Inclusion Cyst, Spontaneous Pneumocephalus, Subarachnoid Hemorrhage, Cerebral Aneurysm
+
+Link - https://medpix.nlm.nih.gov/home
